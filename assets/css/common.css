@@ -855,14 +855,16 @@ body,
   overflow-x: auto;
 }
 
+
+/* Adjusted size of restaurant guide cards */
 .guide .item .image {
-  width: 88px;
+  width: 120px;
   height: auto;
 }
 
 .guide .item .image .guide-img {
   width: 100%;
-  height: 88px;
+  height: 120px;
 }
 
 .guide .item .rating {
@@ -895,6 +897,56 @@ body,
 }
 
 .guide .item .content .location {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--gray-90);
+}
+
+/* Space section CSS */
+.space .all-cards {
+  overflow-x: auto;
+}
+
+.space .item .image {
+  width: 150px;
+  height: auto;
+}
+
+.space .item .image .guide-img {
+  width: 100%;
+  height: 150px;
+}
+
+.space .item .rating {
+  padding: 5px 12px;
+  background: var(--primary-text);
+  border-radius: 50px;
+  margin: -15px auto 0 auto;
+  position: relative;
+  z-index: 10;
+}
+
+.space .item .rating span {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+
+.space .item .content h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary-text);
+}
+
+.space .item .content h5 {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--secondary-text);
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.space .item .content .location {
   font-size: 12px;
   font-weight: 500;
   color: var(--gray-90);
